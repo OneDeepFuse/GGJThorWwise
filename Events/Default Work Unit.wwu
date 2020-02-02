@@ -155,6 +155,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Explosion" ID="{2E2DB6F9-9C70-4179-8663-0A2750EAA6B0}">
+					<ChildrenList>
+						<Action Name="" ID="{4ED40CB2-A40B-485B-977C-989281454EA6}" ShortID="495142354">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explosion" ID="{C82A9B45-09BF-4A72-BB17-9B472351E3D7}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
