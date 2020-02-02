@@ -12,6 +12,7 @@
 						<ObjectRef Name="Stop_Storm" ID="{7AA08F8D-7681-43B5-8933-0D2C86320D37}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Charge_Marteau_Loop" ID="{58E17500-CB52-442C-98D1-996023C0C4D8}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Storm" ID="{ABCE308A-2D4B-4711-BEBC-5C7016753449}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Music" ID="{4539420B-5F0C-474D-8725-AE5D9F1C7708}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Woosh_Nuage" ID="{3BB6CB94-1879-4771-883B-6E3634C9EFD7}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Game_over_electric_sparkles" ID="{7F633D65-FD4B-480B-A65B-BF6ED070224B}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Nail" ID="{6BD531BB-0142-4C0C-B4B4-5C4572D01063}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>

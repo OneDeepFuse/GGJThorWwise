@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{584F52E9-A5F8-48B8-B9BE-2E8A74E2A0A6}" SchemaVersion="94">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{584F52E9-A5F8-48B8-B9BE-2E8A74E2A0A6}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{584F52E9-A5F8-48B8-B9BE-2E8A74E2A0A6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Thor" ID="{F8283C6F-E705-485C-A36E-06B37475F7D9}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Stop_Storm" ID="{7AA08F8D-7681-43B5-8933-0D2C86320D37}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Storm" ID="{ABCE308A-2D4B-4711-BEBC-5C7016753449}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
