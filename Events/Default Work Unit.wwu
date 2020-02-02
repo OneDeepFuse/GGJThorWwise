@@ -166,6 +166,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Game_over_electric_sparkles" ID="{7F633D65-FD4B-480B-A65B-BF6ED070224B}">
+					<ChildrenList>
+						<Action Name="" ID="{94473DD0-5870-4AD3-A995-378D6F658041}" ShortID="337355762">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game_over_electric_sparkles" ID="{223EBA47-0BB5-4D96-9C03-9FD1332CBDC0}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
