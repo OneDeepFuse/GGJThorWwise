@@ -14,6 +14,144 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Music" ID="{B7E3FDC9-A257-4EA8-B563-ABB7D2A4CDD3}">
+					<ChildrenList>
+						<Action Name="" ID="{5B08C0D7-4227-4633-98A2-4F635826DF33}" ShortID="420947338">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Musique Thor" ID="{4B3363C5-FC4A-4C58-8BE0-2663A9EB1648}" WorkUnitID="{B6898385-B29C-4663-B447-0D435AD5CCD4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambiance_calme" ID="{6C4F7920-8D72-4150-9DDA-7314A4791094}">
+					<ChildrenList>
+						<Action Name="" ID="{DF7A82E5-7511-4F38-AE84-BCF335B3563D}" ShortID="513270322">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience-calme" ID="{5D00A0EA-AF49-4034-AC71-AC0C69824743}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Ambiance_calme" ID="{AD533CE0-7E3B-4C9F-B61E-80668CD21C04}">
+					<ChildrenList>
+						<Action Name="" ID="{63FAADCE-C775-4408-918F-4A43590327D9}" ShortID="737776692">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience-calme" ID="{5D00A0EA-AF49-4034-AC71-AC0C69824743}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Charge_Marteau_Loop" ID="{58E17500-CB52-442C-98D1-996023C0C4D8}">
+					<ChildrenList>
+						<Action Name="" ID="{B46FD7CF-01AC-4553-8A1C-D91CA3BC177F}" ShortID="128036388">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Charge Marteau Loop" ID="{442207C6-0BDF-43F8-8BEC-61D324EFCFE1}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Charge_Marteau_Loop" ID="{62509BEA-D846-43AA-8EE9-B4A70766377D}">
+					<ChildrenList>
+						<Action Name="" ID="{5C5B70DD-DE26-40F8-A9B3-86C87BD8B904}" ShortID="264231069">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Charge Marteau Loop" ID="{442207C6-0BDF-43F8-8BEC-61D324EFCFE1}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Confirmation_Nail" ID="{452D4710-01FD-4C42-856A-55D9D2F478DF}">
+					<ChildrenList>
+						<Action Name="" ID="{44E24FCC-6EE0-457A-A780-076A7B19C13C}" ShortID="225540755">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Confirmation Nail" ID="{CD112992-DC0C-4252-99E5-F807BC53E4A0}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Flying_Cow" ID="{618B9758-3205-4F07-90D2-309B0DAAC0CE}">
+					<ChildrenList>
+						<Action Name="" ID="{D24BDF19-9BEA-400B-9359-062405831DC0}" ShortID="678183636">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Flying Cow" ID="{9F85B092-D312-48F7-9462-F856E3DCB1E8}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Nail" ID="{6BD531BB-0142-4C0C-B4B4-5C4572D01063}">
+					<ChildrenList>
+						<Action Name="" ID="{CD49D5BD-A958-4485-93F5-16D479EC6A8F}" ShortID="493217116">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Nail" ID="{B13C6CB1-BDCD-471D-B753-65EF6DC087D2}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Storm" ID="{ABCE308A-2D4B-4711-BEBC-5C7016753449}">
+					<ChildrenList>
+						<Action Name="" ID="{96627655-A671-4CDF-93FD-8ADB93D9C99B}" ShortID="437353601">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Storm" ID="{5868ED78-E688-4D24-A6C0-A0028A97983A}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Storm" ID="{7AA08F8D-7681-43B5-8933-0D2C86320D37}">
+					<ChildrenList>
+						<Action Name="" ID="{78ABC630-80AB-4E28-9680-72744D54713E}" ShortID="791028593">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Nail" ID="{B13C6CB1-BDCD-471D-B753-65EF6DC087D2}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Woosh_Gros_Marteau" ID="{C8EE8D2C-4496-4298-8C50-A4B917A1AF6E}">
+					<ChildrenList>
+						<Action Name="" ID="{3693423B-F751-4CA5-BB54-4A751BDE7A6C}" ShortID="218581957">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Woosh Gros Marteau" ID="{2C04030D-6B80-4BB8-8783-9CA8868DBE74}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Woosh_Nuage" ID="{3BB6CB94-1879-4771-883B-6E3634C9EFD7}">
+					<ChildrenList>
+						<Action Name="" ID="{4EBF49CD-2DCE-4480-A9EB-F194F8E2AECB}" ShortID="633463494">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Woosh Nuage" ID="{C70D531B-7839-4FFC-A58C-7E277BDB37F7}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

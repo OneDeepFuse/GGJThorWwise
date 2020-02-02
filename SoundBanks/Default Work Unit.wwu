@@ -5,7 +5,18 @@
 			<ChildrenList>
 				<SoundBank Name="Thor" ID="{6B994BFF-03D1-4DF2-A134-7106E8AC5AB4}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Test" ID="{8794773A-4533-4624-A3BD-504B0B30DDE4}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ambiance_calme" ID="{6C4F7920-8D72-4150-9DDA-7314A4791094}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Woosh_Gros_Marteau" ID="{C8EE8D2C-4496-4298-8C50-A4B917A1AF6E}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Charge_Marteau_Loop" ID="{62509BEA-D846-43AA-8EE9-B4A70766377D}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Storm" ID="{7AA08F8D-7681-43B5-8933-0D2C86320D37}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Charge_Marteau_Loop" ID="{58E17500-CB52-442C-98D1-996023C0C4D8}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Storm" ID="{ABCE308A-2D4B-4711-BEBC-5C7016753449}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Woosh_Nuage" ID="{3BB6CB94-1879-4771-883B-6E3634C9EFD7}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Nail" ID="{6BD531BB-0142-4C0C-B4B4-5C4572D01063}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Confirmation_Nail" ID="{452D4710-01FD-4C42-856A-55D9D2F478DF}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Stop_Ambiance_calme" ID="{AD533CE0-7E3B-4C9F-B61E-80668CD21C04}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music" ID="{B7E3FDC9-A257-4EA8-B563-ABB7D2A4CDD3}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Flying_Cow" ID="{618B9758-3205-4F07-90D2-309B0DAAC0CE}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -1,6 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B6898385-B29C-4663-B447-0D435AD5CCD4}" SchemaVersion="94">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{B6898385-B29C-4663-B447-0D435AD5CCD4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B6898385-B29C-4663-B447-0D435AD5CCD4}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="Musique Thor" ID="{4B3363C5-FC4A-4C58-8BE0-2663A9EB1648}" ShortID="124683990">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="25671.8333333333"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA7C1B56-F91A-4965-A9E9-BD66CE22C27F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58905A28-8B6E-4B6D-A412-22F7DDB299FB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Musique Thor" ID="{ECA107C9-741A-450F-B295-0145FFB8593F}" ShortID="99090427">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58905A28-8B6E-4B6D-A412-22F7DDB299FB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Musique Thor" ID="{FD24510D-A158-4FAD-9492-21CE1E9EEE61}" ShortID="244442526">
+									<Language>SFX</Language>
+									<AudioFile>Musique Thor.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{8E139E54-0DF6-49F2-9028-5350896BC4F4}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{AAB435B4-2EB3-40A5-A69C-2BD78747EFDA}">
+									<ClipList>
+										<MusicClip Name="Musique Thor" ID="{AE6F8542-6F23-4169-A378-27475B287B3F}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="25671.8333333333"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Musique Thor" ID="{FD24510D-A158-4FAD-9492-21CE1E9EEE61}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{063FF88D-F845-49F8-8DED-8161F07C277C}"/>
+						<MusicCue Name="Exit Cue" ID="{96C6084C-75CE-4433-B0DF-9456E29F5189}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="25671.8333333333"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>
