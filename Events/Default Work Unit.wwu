@@ -122,9 +122,12 @@
 				<Event Name="Stop_Storm" ID="{7AA08F8D-7681-43B5-8933-0D2C86320D37}">
 					<ChildrenList>
 						<Action Name="" ID="{78ABC630-80AB-4E28-9680-72744D54713E}" ShortID="791028593">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Nail" ID="{B13C6CB1-BDCD-471D-B753-65EF6DC087D2}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+									<ObjectRef Name="Storm" ID="{5868ED78-E688-4D24-A6C0-A0028A97983A}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
