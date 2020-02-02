@@ -384,6 +384,32 @@
 								<ActiveSource Name="Start Storm Wind" ID="{65C58497-FA64-407E-9F90-8A6BF2F715A7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Thunder" ID="{804477FD-0956-46EA-85D5-94D63637E394}" ShortID="245007186">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA7C1B56-F91A-4965-A9E9-BD66CE22C27F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58905A28-8B6E-4B6D-A412-22F7DDB299FB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Thunder" ID="{27F03D2A-B6EC-40B5-8DE3-070A8DC85353}" ShortID="185071948">
+									<Language>SFX</Language>
+									<AudioFile>Thunder.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Thunder" ID="{27F03D2A-B6EC-40B5-8DE3-070A8DC85353}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</BlendContainer>
 				<BlendContainer Name="Flying Cow" ID="{9F85B092-D312-48F7-9462-F856E3DCB1E8}" ShortID="506388435">
