@@ -191,6 +191,113 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Voice" ID="{DF5DC68A-AB6A-4BC6-81C9-2EC55EB348AF}" ShortID="442794654">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Ah" ID="{7CFBD3EF-C40A-4A98-818B-E391D427FF8E}">
+							<ChildrenList>
+								<Action Name="" ID="{6EEA63E2-D46F-4334-9C5E-5D32E6E20243}" ShortID="218389434">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ah" ID="{16D6D137-459C-4ABE-AC55-666776703BCF}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Epic_Fail" ID="{BD256676-170C-4067-906E-EC83F881A701}">
+							<ChildrenList>
+								<Action Name="" ID="{F8E8597E-97A0-48ED-9895-F4E79A3B78B5}" ShortID="726149371">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Epic Fail" ID="{16DA0883-B4EE-41ED-81C2-7C47AB6520DC}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Game_Over" ID="{26E25EDB-68C5-48A2-A537-DDABCF1C29E3}">
+							<ChildrenList>
+								<Action Name="" ID="{CA53A72D-3046-4241-B9F3-676F50053076}" ShortID="777788012">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Game Over" ID="{C5EE4A25-C986-4E78-9A93-2F50666F261A}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Great" ID="{F181431C-3106-4EDF-8B71-1A788916584F}">
+							<ChildrenList>
+								<Action Name="" ID="{B1AA5B83-2786-4735-99DA-4C828532D2DE}" ShortID="920136505">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Great" ID="{67A9C605-D4CB-4B2A-A744-AAD461B3E69B}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="I_Have_Heard_You_Are_Good_At_Repair" ID="{D2626162-7121-4315-B562-56638DC44F74}">
+							<ChildrenList>
+								<Action Name="" ID="{763AE393-16DC-4D27-9A24-C822BDD8310B}" ShortID="375175473">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="I Have Heard You Are Good At Repair" ID="{4B60BD61-7E3B-4877-860E-026B2ACD888B}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Nail_It" ID="{B75F04A4-31D5-4E67-805D-D2CD8EE9C2D5}">
+							<ChildrenList>
+								<Action Name="" ID="{1FC66DEE-B21A-48AB-91D5-647906C70982}" ShortID="118348433">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Nail It" ID="{1397F8AD-754F-4FD7-BE63-18B7222A3069}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Perfect" ID="{2C99D65D-1C7C-4BF7-A336-2C127A5D6F79}">
+							<ChildrenList>
+								<Action Name="" ID="{52EE1F6F-3E55-44ED-8F4C-D90650127359}" ShortID="485054975">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Perfect" ID="{DED02D67-A645-4B34-9ADE-281136CE32EE}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sensitive" ID="{9819DE5F-BC0B-4DBA-8FA1-9B54A69E9ADC}">
+							<ChildrenList>
+								<Action Name="" ID="{05A5E150-0BFC-461B-8DFE-865FA6BC9064}" ShortID="319332674">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sensitive" ID="{6CC83EEC-F757-41D0-922F-FF7AC4E0DA58}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Sweet" ID="{BDF9BE9A-3846-454A-A28E-9372019F0BF3}">
+							<ChildrenList>
+								<Action Name="" ID="{B06741C6-22B4-46FD-A4CF-1D81294E4788}" ShortID="140822033">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Sweet" ID="{D874A9DE-4D96-425F-9673-286427FAD622}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
