@@ -15,6 +15,8 @@
 						<ObjectRef Name="Stop_Music" ID="{4539420B-5F0C-474D-8725-AE5D9F1C7708}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Woosh_Nuage" ID="{3BB6CB94-1879-4771-883B-6E3634C9EFD7}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Game_over_electric_sparkles" ID="{7F633D65-FD4B-480B-A65B-BF6ED070224B}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Ui" ID="{C1444A4E-ABA1-481D-888E-D3EE28B723EC}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Voice" ID="{DF5DC68A-AB6A-4BC6-81C9-2EC55EB348AF}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Nail" ID="{6BD531BB-0142-4C0C-B4B4-5C4572D01063}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Confirmation_Nail" ID="{452D4710-01FD-4C42-856A-55D9D2F478DF}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Test" ID="{4707E8F7-9A9A-4C7D-85D0-76739AAE7B43}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>

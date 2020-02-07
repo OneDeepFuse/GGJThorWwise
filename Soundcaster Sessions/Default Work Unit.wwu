@@ -13,6 +13,14 @@
 							<ObjectRef Name="Play_Storm" ID="{ABCE308A-2D4B-4711-BEBC-5C7016753449}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}"/>
 							<Position X="1" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Ambiance_calme" ID="{AD533CE0-7E3B-4C9F-B61E-80668CD21C04}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ambiance_calme" ID="{6C4F7920-8D72-4150-9DDA-7314A4791094}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}"/>
+							<Position X="3" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true"/>

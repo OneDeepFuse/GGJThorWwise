@@ -41,6 +41,7 @@
 						<Action Name="" ID="{63FAADCE-C775-4408-918F-4A43590327D9}" ShortID="737776692">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -291,6 +292,44 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Sweet" ID="{D874A9DE-4D96-425F-9673-286427FAD622}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ui" ID="{C1444A4E-ABA1-481D-888E-D3EE28B723EC}" ShortID="1040403288">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Ui_Normal" ID="{108743D8-679B-490C-B9A9-71154AC22856}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{E47239D3-1EE7-44AE-98E1-B2B89CCE35A6}" ShortID="721879211">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui-Great" ID="{651BBEF9-7C37-4B9E-9D6B-666C30D33454}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ui_Perfect" ID="{E617F842-7ADB-42FA-A354-0F3FC9F4AD97}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{206D7CBE-9DEE-4430-AE39-7BE587CD4E2B}" ShortID="550492488">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ui-Perfect" ID="{E0EA58DC-57B7-419F-90B8-9C4B739D479C}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
