@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Test" ID="{4707E8F7-9A9A-4C7D-85D0-76739AAE7B43}">
-					<ChildrenList>
-						<Action Name="" ID="{FCEA141B-B259-42A2-9A57-013917044990}" ShortID="675836754">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Test" ID="{8794773A-4533-4624-A3BD-504B0B30DDE4}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Music" ID="{B7E3FDC9-A257-4EA8-B563-ABB7D2A4CDD3}">
 					<ChildrenList>
 						<Action Name="" ID="{5B08C0D7-4227-4633-98A2-4F635826DF33}" ShortID="420947338">
@@ -354,6 +343,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Thunders" ID="{D802DE41-89AB-4550-AAB2-0D825C663BB3}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Musique_credits" ID="{C5878369-856A-49C5-B380-C44F1D48538F}">
+					<ChildrenList>
+						<Action Name="" ID="{60364762-F6B0-4B26-8311-030C57EBCBC9}" ShortID="878723539">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Musique_credits" ID="{356769C3-F29C-4D48-85A5-4B5292635CFB}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -3,42 +3,6 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{2C173FD2-3A91-40D5-9961-51805C3F2003}" PersistMode="Standalone">
 			<ChildrenList>
-				<BlendContainer Name="Test" ID="{8794773A-4533-4624-A3BD-504B0B30DDE4}" ShortID="236590560">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA7C1B56-F91A-4965-A9E9-BD66CE22C27F}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58905A28-8B6E-4B6D-A412-22F7DDB299FB}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="Phrase 2" ID="{B5B2F391-55F9-420D-9F3D-AB9E933FD238}" ShortID="653009193">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA7C1B56-F91A-4965-A9E9-BD66CE22C27F}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58905A28-8B6E-4B6D-A412-22F7DDB299FB}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Phrase 2" ID="{4B2E53D8-1175-423E-9CAA-C729C9BBD47A}" ShortID="893082637">
-									<PropertyList>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="3.99800264200793"/>
-										<Property Name="TrimEnd" Type="Real64" Value="17.0116354029062"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Phrase 2.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Phrase 2" ID="{4B2E53D8-1175-423E-9CAA-C729C9BBD47A}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</BlendContainer>
 				<BlendContainer Name="Ambience-calme" ID="{5D00A0EA-AF49-4034-AC71-AC0C69824743}" ShortID="1036862771">
 					<PropertyList>
 						<Property Name="Highpass" Type="int16">
@@ -1444,6 +1408,37 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<BlendContainer Name="Musique_credits" ID="{356769C3-F29C-4D48-85A5-4B5292635CFB}" ShortID="873231060">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA7C1B56-F91A-4965-A9E9-BD66CE22C27F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58905A28-8B6E-4B6D-A412-22F7DDB299FB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Musique_version_crédits" ID="{2457C5D6-BD09-4CBE-975D-B3714DEE2EF2}" ShortID="625100647">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA7C1B56-F91A-4965-A9E9-BD66CE22C27F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58905A28-8B6E-4B6D-A412-22F7DDB299FB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Musique_version_crédits" ID="{AA305A82-3B1A-4DBA-88B2-962BCBB69C27}" ShortID="727737523">
+									<Language>SFX</Language>
+									<AudioFile>Musique_version_crédits.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Musique_version_crédits" ID="{AA305A82-3B1A-4DBA-88B2-962BCBB69C27}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
