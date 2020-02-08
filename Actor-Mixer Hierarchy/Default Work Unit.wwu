@@ -40,6 +40,13 @@
 					</ChildrenList>
 				</BlendContainer>
 				<BlendContainer Name="Ambience-calme" ID="{5D00A0EA-AF49-4034-AC71-AC0C69824743}" ShortID="1036862771">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>38</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA7C1B56-F91A-4965-A9E9-BD66CE22C27F}"/>
@@ -314,6 +321,58 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Wind" ID="{C8D2B3D7-1B45-49DE-BFDF-ED9B16543E32}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cows" ID="{E6F97959-6F28-438F-9456-D1C78328B84A}" ShortID="500735454">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA7C1B56-F91A-4965-A9E9-BD66CE22C27F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58905A28-8B6E-4B6D-A412-22F7DDB299FB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cows" ID="{61EDFCD0-CFAF-4205-8080-A63A90ADAFD4}" ShortID="831082017">
+									<Language>SFX</Language>
+									<AudioFile>Cows.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cows" ID="{61EDFCD0-CFAF-4205-8080-A63A90ADAFD4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cows_bells" ID="{AD5B5746-4712-47D3-8FA4-E7014D079A07}" ShortID="448707110">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA7C1B56-F91A-4965-A9E9-BD66CE22C27F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58905A28-8B6E-4B6D-A412-22F7DDB299FB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cows_bells" ID="{E7E3C77E-EDD4-4999-BC42-9D4A2996C389}" ShortID="363357343">
+									<Language>SFX</Language>
+									<AudioFile>Cows_bells.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cows_bells" ID="{E7E3C77E-EDD4-4999-BC42-9D4A2996C389}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
