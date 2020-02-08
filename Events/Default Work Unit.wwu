@@ -348,6 +348,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Thunder" ID="{AC6A21C8-6610-4532-9E47-4FDDA6E16FB8}">
+					<ChildrenList>
+						<Action Name="" ID="{C3D85C43-C630-4E7E-8ADD-A41C33FCBE1A}" ShortID="330962375">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Thunders" ID="{D802DE41-89AB-4550-AAB2-0D825C663BB3}" WorkUnitID="{2C173FD2-3A91-40D5-9961-51805C3F2003}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
