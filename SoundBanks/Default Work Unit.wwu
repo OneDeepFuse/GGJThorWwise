@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Thor" ID="{6B994BFF-03D1-4DF2-A134-7106E8AC5AB4}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Ui_Nail_It" ID="{86B98A30-D938-414F-8D95-D52FBAA4770B}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Ambiance_calme" ID="{6C4F7920-8D72-4150-9DDA-7314A4791094}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Explosion" ID="{2E2DB6F9-9C70-4179-8663-0A2750EAA6B0}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Woosh_Gros_Marteau" ID="{C8EE8D2C-4496-4298-8C50-A4B917A1AF6E}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}" Filter="7" Origin="Manual"/>

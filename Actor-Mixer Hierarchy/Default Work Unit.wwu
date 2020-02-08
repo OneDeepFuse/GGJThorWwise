@@ -1229,6 +1229,32 @@
 								<ActiveSource Name="Ui-Perfect" ID="{424E370C-04EE-47A6-8AA6-184902190F70}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Ui-Nail-It" ID="{B682F617-CF98-479F-AE2F-68D095D782E9}" ShortID="688088811">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3.4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA7C1B56-F91A-4965-A9E9-BD66CE22C27F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{58905A28-8B6E-4B6D-A412-22F7DDB299FB}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ui-Nail-It" ID="{B0C7A4B0-2FB8-4EE3-9786-080831DEF4B8}" ShortID="800402162">
+									<Language>SFX</Language>
+									<AudioFile>Ui-Nail-It.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ui-Nail-It" ID="{B0C7A4B0-2FB8-4EE3-9786-080831DEF4B8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
