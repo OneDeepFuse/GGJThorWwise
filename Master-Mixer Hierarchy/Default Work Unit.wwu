@@ -10,6 +10,20 @@
 						</Reference>
 					</ReferenceList>
 				</Bus>
+				<Bus Name="Voices" ID="{2652CE89-8F1E-4BEB-B84E-4C0425C7F83D}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{5F2F107C-E853-4E22-8E91-998707EB16BE}" WorkUnitID="{E1A4CC7D-8886-42FF-94DE-03691E7878DE}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
 			</ChildrenList>
 		</WorkUnit>
 	</Busses>

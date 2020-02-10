@@ -10,6 +10,10 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="I_Have_Heard_You_Are_Good_At_Repair" ID="{D2626162-7121-4315-B562-56638DC44F74}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Storm" ID="{ABCE308A-2D4B-4711-BEBC-5C7016753449}" WorkUnitID="{EA4ADFFA-C9C8-42D2-BC4A-5D8A4A7693BF}"/>
 							<Position X="1" Y="1"/>
 						</Module>
